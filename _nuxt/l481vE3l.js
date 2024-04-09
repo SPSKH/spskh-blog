@@ -1,1 +1,0 @@
-import{l as t,b as c,P as n,w as s,Q as r,G as a}from"./CO0AWPT9.js";const _={};function l(e,f){const o=a;return c(),n(o,{color:"green"},{default:s(()=>[r(e.$slots,"default")]),_:3})}const u=t(_,[["render",l]]);export{u as default};
