@@ -6,7 +6,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main>
+  <main class="mt-32">
     <ContentDoc />
   </main>
 </template>
