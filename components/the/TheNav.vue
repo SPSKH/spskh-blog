@@ -1,9 +1,16 @@
 <script setup lang="ts">
-const links = [{
-    label: 'Home',
-    icon: 'i-heroicons-home',
-    to: '/'
-}]
+const links = [
+    {
+        label: 'Domů',
+        icon: 'i-heroicons-home',
+        to: '/'
+    },
+    {
+        label: 'Seznam článků',
+        icon: 'i-heroicons-list-bullet',
+        to: '/list'
+    }
+]
 </script>
 
 <template>
