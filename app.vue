@@ -3,6 +3,7 @@
   <UContainer>
     <NuxtPage />
   </UContainer>
+  <TheFooter />
 
   <UNotifications />
 </template>
@@ -36,6 +37,12 @@ h2 {
 
 .black-text {
   color: var(--black);
+}
+
+footer {
+  background-color: var(--blue-primary);
+  color: #ffffff;
+  padding: 12px;
 }
 
 /* .section {
