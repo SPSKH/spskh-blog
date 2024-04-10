@@ -1,6 +1,6 @@
 <template>
   <TheNav />
-  <UContainer>
+  <UContainer class="min-height">
     <NuxtPage />
   </UContainer>
   <TheFooter />
@@ -34,13 +34,17 @@ h2 {
   margin-bottom: 16px;
 }
 
-.black-text {
-  color: var(--black);
-}
-
 footer {
   background-color: var(--blue-primary);
   color: #ffffff;
   padding: 12px;
+}
+
+.black-text {
+  color: var(--black);
+}
+
+.min-height {
+  min-height: 100vh;
 }
 </style>
