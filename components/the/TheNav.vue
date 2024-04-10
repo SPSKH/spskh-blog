@@ -8,7 +8,12 @@ const links = [
     {
         label: 'Seznam článků',
         icon: 'i-heroicons-list-bullet',
-        to: '/list'
+        to: '/articles'
+    },
+    {
+        label: 'Studentské projekty',
+        icon: 'i-heroicons-academic-cap',
+        to: '/projects'
     }
 ]
 </script>
