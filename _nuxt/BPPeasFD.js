@@ -1,1 +1,0 @@
-import{l as t,b as n,P as a,w as c,Q as r,G as s}from"./I9qjWRYV.js";const _={};function l(e,f){const o=s;return n(),a(o,{color:"yellow"},{default:c(()=>[r(e.$slots,"default")]),_:3})}const p=t(_,[["render",l]]);export{p as default};
