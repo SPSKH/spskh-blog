@@ -15,7 +15,7 @@ const socials = [
         <div>
             <p>© {{ year }}, VOŠ, SPŠ a JŠ Kutná Hora, všechna práva vyhrazena</p>
             <p>
-                Vytvořil: <NuxtLink to="mailto:cernoch@voskh.cz">Martin Černoch</NuxtLink>
+                Vytvořil a spravuje: <NuxtLink to="mailto:cernoch@voskh.cz">Martin Černoch</NuxtLink>
             </p>
         </div>
         <div class="flex gap-2">

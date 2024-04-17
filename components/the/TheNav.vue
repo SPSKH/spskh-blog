@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const links = [
-    {
+    [{
         label: 'Domů',
         icon: 'i-heroicons-home',
         to: '/'
@@ -14,7 +14,12 @@ const links = [
         label: 'Studentské projekty',
         icon: 'i-heroicons-academic-cap',
         to: '/projects'
-    }
+    }],
+    [{
+            label: 'Web školy',
+            icon: 'i-heroicons-globe-alt',
+            to: 'https://www.spskh.cz'
+    }]
 ]
 </script>
 
