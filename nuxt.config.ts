@@ -7,11 +7,6 @@ export default defineNuxtConfig({
       preload: ['js', 'ts', 'vue', 'json', 'bash', 'md']
     }
   },
-  nitro: {
-    prerender: {
-      routes: ['/sitemap.xml']
-    }
-  },
   app: {
     head: {
       charset: 'utf-8',
