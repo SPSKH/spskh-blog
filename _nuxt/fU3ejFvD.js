@@ -1,0 +1,1 @@
+import{l as t,b as n,R as a,w as c,S as r,D as s}from"./CEfwfC-F.js";const _={};function l(e,f){const o=s;return n(),a(o,{color:"yellow"},{default:c(()=>[r(e.$slots,"default")]),_:3})}const p=t(_,[["render",l]]);export{p as default};
