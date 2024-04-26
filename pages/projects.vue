@@ -17,8 +17,8 @@ const toast = useToast()
         <div class="flex justify-center gap-6">
             <UButton @click="toast.add({ title: 'Přešel jsi na domovskou stránku!' })" to="/"
                 label="Přejít na domovskou stránku" color="primary" />
-            <UButton @click="toast.add({ title: 'Přešel jsi na stránku seznam článků!' })" to="/articles"
-                label="Přejít na stránku se seznamem článků" color="primary" />
+            <UButton @click="toast.add({ title: 'Přešel jsi na stránku seznam článků!' })" to="/tips-and-tricks"
+                label="Přejít na stránku Tips&Tricks" color="primary" />
         </div>
         <ContentList path="/projects" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">

@@ -1,11 +1,12 @@
 ---
-title: 'Druhý článek'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque gravida in fermentum et sollicitudin ac. Vel eros donec ac odio tempor orci. Amet tellus cras adipiscing enim eu.'
+title: 'První Tips&Tricks článek'
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque gravida in fermentum et sollicitudin ac. Vel eros donec ac odio tempor orci. Amet tellus cras adipiscing enim eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque gravida in fermentum et sollicitudin ac. Vel eros donec ac odio tempor orci. Amet tellus cras adipiscing enim eu.'
 author: 'Martin Černoch'
-path: 'second-article'
+avatar: 'https://avatars.githubusercontent.com/u/100514868?v=4'
+path: 'first-tips-and-tricks'
 ---
 
-# Druhý článek
+# První článek
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque gravida in fermentum et sollicitudin ac. Vel eros donec ac odio tempor orci. Amet tellus cras adipiscing enim eu.
 

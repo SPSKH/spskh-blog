@@ -13,14 +13,14 @@ const toast = useToast()
             <UBadge color="primary" variant="subtle">Studentský blog plný zajímavých článků o IT z průmyslovky Kutná
                 Hora!</UBadge>
         </div>
-        <h1>Seznam článků</h1>
+        <h1>Tips&Tricks</h1>
         <div class="flex justify-center gap-6">
             <UButton @click="toast.add({ title: 'Přešel jsi na domovskou stránku!' })" to="/"
                 label="Přejít na domovskou stránku" color="primary" />
             <UButton @click="toast.add({ title: 'Přešel jsi na stránku studentské projekty!' })" to="/projects"
                 label="Přejít na stránku se studentskými projekty" color="primary" />
         </div>
-        <ContentList path="/articles" v-slot="{ list }">
+        <ContentList path="/tips-and-tricks" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">
                 <NuxtLink :to="`${article._path}`">
                     <UCard class="mt-24">

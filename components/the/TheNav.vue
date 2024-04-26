@@ -6,9 +6,9 @@ const links = [
         to: '/'
     },
     {
-        label: 'Seznam článků',
-        icon: 'i-heroicons-list-bullet',
-        to: '/articles'
+        label: 'Tips&Tricks',
+        icon: 'i-heroicons-light-bulb',
+        to: '/tips-and-tricks'
     },
     {
         label: 'Studentské projekty',
@@ -16,9 +16,9 @@ const links = [
         to: '/projects'
     }],
     [{
-            label: 'Web školy',
-            icon: 'i-heroicons-globe-alt',
-            to: 'https://www.spskh.cz'
+        label: 'Web školy',
+        icon: 'i-heroicons-globe-alt',
+        to: 'https://www.spskh.cz'
     }]
 ]
 </script>

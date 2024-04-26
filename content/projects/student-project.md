@@ -3,7 +3,7 @@ title: 'První studentský projekt'
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque gravida in fermentum et sollicitudin ac. Vel eros donec ac odio tempor orci. Amet tellus cras adipiscing enim eu.'
 author: 'Martin Černoch'
 avatar: 'https://avatars.githubusercontent.com/u/100514868?v=4'
-path: 'student-project'
+path: 'first-student-project'
 ---
 
 # První článek
