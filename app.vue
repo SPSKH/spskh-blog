@@ -20,14 +20,15 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
 h1 {
-  font-size: 92px;
+  font-size: 48px;
   text-align: center;
   color: var(--black);
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 32px;
   color: var(--blue-primary);
   text-align: center;
   margin-top: 32px;
@@ -46,5 +47,16 @@ footer {
 
 .min-height {
   min-height: 100vh;
+}
+
+@media screen and (min-width: 1280px) {
+
+  h1 {
+    font-size: 92px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
 }
 </style>
