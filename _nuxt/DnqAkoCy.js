@@ -1,0 +1,1 @@
+import{l as t,b as c,R as n,w as s,S as r,D as a}from"./Cioh3SsJ.js";const _={};function l(e,f){const o=a;return c(),n(o,{color:"green"},{default:s(()=>[r(e.$slots,"default")]),_:3})}const u=t(_,[["render",l]]);export{u as default};
