@@ -11,7 +11,7 @@ const socials = [
 </script>
 
 <template>
-    <footer class="flex justify-between items-center mt-32">
+    <footer class="flex max-xl:flex-col max-xl:text-center max-xl:gap-6 justify-between items-center mt-32">
         <div>
             <p>© {{ year }}, VOŠ, SPŠ a JŠ Kutná Hora, všechna práva vyhrazena</p>
             <p>

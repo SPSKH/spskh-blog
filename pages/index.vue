@@ -8,7 +8,7 @@ const toast = useToast()
 </script>
 
 <template>
-    <main class="mt-32">
+    <main class="mt-16 xl:mt-32">
         <div class="flex justify-center mb-6">
             <UBadge color="primary" variant="subtle" class="text-center">Studentský blog plný zajímavých článků o IT z průmyslovky Kutná
                 Hora!</UBadge>
@@ -23,9 +23,9 @@ const toast = useToast()
             </p>
         </div>
         <div class="flex max-xl:flex-col gap-6 justify-center mt-6">
-            <UButton @click="toast.add({ title: 'Přešel jsi na stránku seznam článků!' })" to="/tips-and-tricks"
+            <UButton class="flex justify-center" @click="toast.add({ title: 'Přešel jsi na stránku seznam článků!' })" to="/tips-and-tricks"
                 label="Přejít na stránku Tips&Tricks" color="primary" />
-            <UButton @click="toast.add({ title: 'Přešel jsi na stránku studentské projekty!' })" to="/projects"
+            <UButton class="flex justify-center" @click="toast.add({ title: 'Přešel jsi na stránku studentské projekty!' })" to="/projects"
                 label="Přejít na stránku se studentskými projekty" color="primary" />
         </div>
         <ContentList path="/articles" v-slot="{ list }">

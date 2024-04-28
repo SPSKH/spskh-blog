@@ -1,23 +1,23 @@
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Blog SPŠ Kutná Hora - seznam článků',
-    ogTitle: 'Blog SPŠ Kutná Hora - seznam článků'
+    title: 'Blog SPŠ Kutná Hora - Tips&Tricks',
+    ogTitle: 'Blog SPŠ Kutná Hora - Tips&Tricks',
 })
 
 const toast = useToast()
 </script>
 
 <template>
-    <main class="mt-32">
+    <main class="mt-16 xl:mt-32">
         <div class="flex justify-center mb-6">
-            <UBadge color="primary" variant="subtle">Studentský blog plný zajímavých článků o IT z průmyslovky Kutná
+            <UBadge color="primary" variant="subtle" class="text-center">Studentský blog plný zajímavých článků o IT z průmyslovky Kutná
                 Hora!</UBadge>
         </div>
         <h1>Tips&Tricks</h1>
-        <div class="flex justify-center gap-6">
-            <UButton @click="toast.add({ title: 'Přešel jsi na domovskou stránku!' })" to="/"
+        <div class="flex max-xl:flex-col justify-center gap-6 mt-6">
+            <UButton class="flex justify-center" @click="toast.add({ title: 'Přešel jsi na domovskou stránku!' })" to="/"
                 label="Přejít na domovskou stránku" color="primary" />
-            <UButton @click="toast.add({ title: 'Přešel jsi na stránku studentské projekty!' })" to="/projects"
+            <UButton class="flex justify-center" @click="toast.add({ title: 'Přešel jsi na stránku studentské projekty!' })" to="/projects"
                 label="Přejít na stránku se studentskými projekty" color="primary" />
         </div>
         <ContentList path="/tips-and-tricks" v-slot="{ list }">
